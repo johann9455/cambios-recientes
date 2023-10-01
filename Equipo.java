@@ -43,7 +43,8 @@ public class Equipo {
     }
 
     // Método para listar la información del equipo
-    public void listarEquipo() {
+   protected void Imprimir() {
+        super.imprimir();
         System.out.println("Nombre del equipo: " + nombreEquipo);
         System.out.println("País del equipo: " + paisEquipo);
         System.out.println("Integrantes del equipo:");
