@@ -5,7 +5,12 @@ public class Main {
         Escalador escalador = new Escalador(5678, "Nairo Quintana", 20, 15);
         Contrarelojista contrarelojista1 = new Contrarelojista(1357, "Esteban Chavez", 120);
         //Imprimir listar equipo
-    
+     protected void imprimir(){
+            super.imprimir();
+            System.out.println("Nombre del equipo: " + nombreEquipo);
+            System.out.println("País del equipo: " + paisEquipo);
+            System.out.println("Integrantes del equipo:");
+        }
     }
 
 }
